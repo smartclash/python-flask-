@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Is it new year or not ??</title>
+        <style>
+            body {
+                text-align: center;
+                font-size: larger;
+            }
+        </style>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Is it new year or not ??</title>
-    <style>
-        body {
-            text-align: center;
-            font-size: larger;
-        }
-    </style>
-</head>
-
-<body>
-    {% if new_year %}
-    <p>Happy new year</p>
-    {% else %}
-    <p>No its not a newyear</p>
-    {% endif %}
-</body>
-
+    <body>
+        {% if new_year %}
+            <p>Happy new year</p>
+        {% else %}
+            <p>No its not a newyear</p>
+        {% endif %}
+    </body>
 </html>
